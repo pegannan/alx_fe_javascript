@@ -87,3 +87,5 @@ async function fetchQuotesFromServe() {
  // Storing data
  localStorage.setItem('setInterval');
 
+ alert('Quotes synced with server!')
+
