@@ -80,3 +80,5 @@ async function fetchQuotesFromServe() {
             <li>user's name</li>
         });;
    }
+
+   "method", "POST", "headers", "Content-Type"
