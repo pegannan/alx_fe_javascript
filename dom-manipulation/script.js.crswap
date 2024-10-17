@@ -13,4 +13,4 @@ document.getElementById("myDIV").appendChild(para)
 
 const newQuote = createAddQuoteForm
 
-newQuote.addEventLister(click, sh)
+newQuote.addEventLister(click, showRandomQuote)
