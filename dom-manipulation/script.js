@@ -56,3 +56,11 @@ function importFromJsonFile (
 
   // Storing data
 localStorage.setItem('selectedCategory');
+
+function fetchQuotesFromServer (
+
+);
+
+function syncQuotes (
+    
+);
