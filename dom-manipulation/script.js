@@ -47,7 +47,7 @@ function importFromJsonFile (
   </select>
 
   function populateCategories (
-    quote = 'map'
+    quote = 'map', 'textContent'
   );
 
   function filterQuotes(
