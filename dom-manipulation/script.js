@@ -62,5 +62,21 @@ function fetchQuotesFromServer (
 );
 
 function syncQuotes (
-    
+
 );
+
+"await", "async", 
+
+async function fetchQuotesFromServe() {
+    const apiUrl = 'https://jsonplaceholder.typicode.com/posts';
+
+   const dataContainer = document.getElementById("api-data")
+}
+
+   try{
+    const response = await fetchQuotesFromServe((apiUrl) => {
+        const users = await.response.json()})
+        array.forEach(element => {
+            <li>user's name</li>
+        });;
+   }
