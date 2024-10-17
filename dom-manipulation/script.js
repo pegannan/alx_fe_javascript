@@ -34,7 +34,7 @@ localStorage.setItem('quotes');
 const username = localStorage.getItem('quotes');
 
 function exportToJsonFile (
-
+    application/json", "JSON.stringify", "Blob
 );
 
 <input type="file" id="importFile" accept=".json" onchange="importFromJsonFile(event)" />
