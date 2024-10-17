@@ -13,4 +13,7 @@ document.getElementById("myDIV").appendChild(para)
 
 const newQuote = createAddQuoteForm
 
-newQuote.addEventLister(click, sh)
+newQuote.addEventListner(click, showRandomQuote)
+
+// Storing data
+localStorage.setItem('quotes');
