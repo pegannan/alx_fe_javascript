@@ -13,7 +13,22 @@ document.getElementById("myDIV").appendChild(para)
 
 const newQuote = createAddQuoteForm
 
-newQuote.addEventListner(click, showRandomQuote)
+newQuote.addEventListener(click, showRandomQuote)
+
+
+function importFromJsonFile(event) {
+    const fileReader = new FileReader();
+    fileReader.onload = function(event) {
+      const importedQuotes = JSON.parse(event.target.result);
+      quotes.push(...importedQuotes);
+      saveQuotes();
+      alert('Quotes imported successfully!');
+    };
+    fileReader.readAsText(event.target.files[0]);
+  }
 
 // Storing data
 localStorage.setItem('quotes');
+
+// Retrieving data
+const username = localStorage.getItem('quotes');
