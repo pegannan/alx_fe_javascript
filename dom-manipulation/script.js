@@ -32,3 +32,13 @@ localStorage.setItem('quotes');
 
 // Retrieving data
 const username = localStorage.getItem('quotes');
+
+function exportToJsonFile (
+
+);
+
+<input type="file" id="importFile" accept=".json" onchange="importFromJsonFile(event)" />
+
+function importFromJsonFile (
+
+);
