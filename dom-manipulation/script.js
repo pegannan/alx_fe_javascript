@@ -37,8 +37,19 @@ function exportToJsonFile (
     application/json", "JSON.stringify", "Blob
 );
 
-
-
 function importFromJsonFile (
     object = URL.createObjectURL 
 );
+
+<select id="categoryFilter" onchange="filterQuotes()">
+    <option value="all">All Categories</option>
+    <!-- Dynamically populated categories -->
+  </select>
+
+  function populateCategories (
+    quote = 'map'
+  );
+
+  function filterQuotes(
+
+  );
