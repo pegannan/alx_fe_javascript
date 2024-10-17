@@ -82,3 +82,8 @@ async function fetchQuotesFromServe() {
    }
 
    "method", "POST", "headers", "Content-Type"
+
+   const setInterval = contentType
+ // Storing data
+ localStorage.setItem('setInterval');
+
