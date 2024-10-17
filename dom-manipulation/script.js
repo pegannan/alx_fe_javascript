@@ -37,8 +37,8 @@ function exportToJsonFile (
     application/json", "JSON.stringify", "Blob
 );
 
-<input type="file" id="importFile" accept=".json" onchange="importFromJsonFile(event)" />
+
 
 function importFromJsonFile (
-
+    object = URL.createObjectURL 
 );
