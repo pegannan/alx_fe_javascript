@@ -51,5 +51,8 @@ function importFromJsonFile (
   );
 
   function filterQuotes(
-
+    const selectedCategory = quotes
   );
+
+  // Storing data
+localStorage.setItem('selectedCategory');
